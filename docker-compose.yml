@@ -1,8 +1,0 @@
-version: '3'
-services:
-    python:
-        build:
-            context: ./docker/python/
-        volumes:
-          - "./sources:/sources"
-          - "./output:/sources/output"

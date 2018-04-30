@@ -1,2 +1,2 @@
-#docker/python/slides/theme/avalanche/base.html
-*.html
+output/*.html
+.idea/

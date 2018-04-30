@@ -2,35 +2,33 @@
 
 ---
 
-# William DURAND
+# Antoine Cusset
 
-PhD / **CTO TailorDev**
+PHP Back-end Developper **@ Clever-Age**
 
-Graduated from IUT, ISIMA, Blaise Pascal University. Worked at:
+Cursus:
 
-* [Michelin](http://www.michelin.fr/) (Clermont-Fd, France);
-* [Nelmio](http://nelm.io) (Zürich, Switzerland);
-* [e-TF1](http://www.tf1.fr/) (Paris, France);
-* [Prizee.com](http://prizee.com) (Clermont-Fd, France).
+* DUT à l'[IUT Villetaneuse](https://iutv.univ-paris13.fr/)
+* Licence d'informatique à l'[Université Pierre et Marie Curie](http://www.upmc.fr/)
+* Master de web à l'[Ecole Supérieure de Génie Informatique](https://www.esgi.fr/)
 
-Open-Source evangelist:
+Anciens employeurs:
 
-* Lead developer of [Geocoder](http://geocoder-php.org/), and [several other
-  projects](https://github.com/willdurand);
-* (Inactive?) Contributor on Symfony.
+* [Foncia](https://fr.foncia.com/) (Antony, France);
+* [SNCF](https://www.sncf.com/fro) (Saint-Denis, France);
+* [Clever Age](https://www.clever-age.com/fr/) (Paris, France)
+
+Passions:
+* Initiateur / Entraineur Apnée niveau 2 (Paris XV)
+* Roller (24h du Mans)
+* Cinéma 
 
 <p class="center">
-    <i class="fa fa-twitter"></i> <a href="https://twitter.com/couac">twitter.com/couac</a>
-    &nbsp;|&nbsp;
-    <i class="fa fa-github"></i> <a href="https://github.com/willdurand">github.com/willdurand</a>
-    &nbsp;|&nbsp;
-    <i class="fa fa-globe"></i> <a href="http://www.williamdurand.fr">williamdurand.fr</a>
+    <i class="fa fa-github"></i> <a href="https://github.com/acusset">github.com/acusset</a>
 </p>
 
 ---
 
-# [edu@drnd.me](mailto:edu@drnd.me)
+# [a.cusset@gmail.com](mailto:a.cu sset@gmail.com)
+# [acusset@clever-age.com](mailto:acusset@clever-age.com)
 
----
-
-# ![](images/clermontech.png)

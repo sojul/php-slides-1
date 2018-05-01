@@ -1,4 +1,4 @@
-# Who Is Speaking?
+# WHOAMI ?
 
 ---
 
@@ -18,17 +18,25 @@ Anciens employeurs:
 * [SNCF](https://www.sncf.com/fro) (Saint-Denis, France);
 * [Clever Age](https://www.clever-age.com/fr/) (Paris, France)
 
+---
+
+# Antoine Cusset
+
+Dev:
+
+ * PHP
+ * Symfony 2/3
+ * Docker
+ * CI/CD
+ * Angular (soon)
+
 Passions:
+
 * Initiateur / Entraineur Apnée niveau 2 (Paris XV)
 * Roller (24h du Mans)
 * Cinéma 
 
 <p class="center">
     <i class="fa fa-github"></i> <a href="https://github.com/acusset">github.com/acusset</a>
+    <i class="fa fa-mail"></i> <a href="mailto:acusset@clever-age.com">acusset@clever-age.com</a>
 </p>
-
----
-
-# [a.cusset@gmail.com](mailto:a.cu sset@gmail.com)
-# [acusset@clever-age.com](mailto:acusset@clever-age.com)
-

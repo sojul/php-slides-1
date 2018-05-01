@@ -1,19 +1,17 @@
-# Agenda
+# Sommaire
 
-### Week #1
+### Part 1 : PHP Basis
 
-PHP: Hypertext Preprocessor, The PHP Syntax, The PHP Command Line,
+PHP: Hypertext Preprocessor, The PHP Syntax, Operators
+
+### Part #2
+
 Client/Server, REST
 
-### Week #2
+### Part #3
 
-Autoloading, Leveraging PHP APIs, Dependency Management, Model View Controller
 
-### Week #3
+### Part #4
 
-Databases
-
-### Week #4
-
+Autoloading, Dependency Management, Model View Controller
 Sessions, Authentication, Writing Better Code, Testing, Awesome Projects,
-Embracing Open Source

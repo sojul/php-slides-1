@@ -29,3 +29,8 @@ Credits
 * [All
   contributors](https://github.com/willdurand-edu/php-slides/graphs/contributors)
 * PHP lectures by [William Durand](http://github.com/willdurand).  
+
+Based on
+--------
+
+See full documentation here : [Landslide](https://github.com/adamzap/landslide)

@@ -4,18 +4,38 @@
 
 # History & Numbers
 
-* Created by Rasmus Lerdorf
-* 4th language on GitHub
-([August 2015](https://github.com/blog/2047-language-trends-on-github))
-* 6th language in the world
+* Created by Rasmus Lerdorf in 1994
+* Running on +75% of all web servers
+* 5th language on GitHub
+([Octoverse 2017](https://octoverse.github.com/))
+* 7th language in the world
 ([TIOBE](http://tiobe.com/index.php/content/paperinfo/tpci/index.html) January 2016)
 * 1st language for web development
 * Running on +75% of all web servers
-* 20 years old in 2015!
+
+# Presenter Notes
+
+Souvent moqués par le reste de la communauté car "vieux" et "pas vraiment objet" et très permissif 
 
 ---
 
-# ![](../images/core-team.jpg)
+# ![](../images/octoverse-popular-language.png)
+
+<p class="center">
+    The ten most popular languages on GitHub by opened pull request
+</p>
+
+# Presenter Notes
+
+The ten most popular languages on GitHub by opened pull request
+
+---
+
+# Getting Started
+
+# Presenter Notes
+
+    sudo apt show php
 
 ---
 
@@ -56,15 +76,15 @@
 
 ---
 
-# HHVM
+# Getting Started
 
-HipHop Virtual Machine for PHP, created by Facebook.
+## Docker simple container
 
-HHVM uses a just-in-time compilation approach to achieve superior performance.
+    git clone https://github.com/acusset/php-env
+    make install
 
-![](../images/hhvm.jpg)
-
-> [http://hhvm.com](http://hhvm.com)
+Uses Docker simple container with Apache & PHP 7.1.
+It's like a sandbox
 
 ---
 

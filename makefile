@@ -18,3 +18,6 @@ slides:
 
 destroy:
 	docker rm php-slides
+
+watch:
+	watch -n 5 make slides

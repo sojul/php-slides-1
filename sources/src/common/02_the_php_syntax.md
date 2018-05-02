@@ -103,6 +103,132 @@ greater than `$b`:
 
 ---
 
+# Control Structures
+
+## if, else, elseif
+
+    !php
+    if ($a > $b) {
+        echo "a is bigger than b";
+    } elseif ($a == $b) {
+        echo "a is equal to b";
+    } else {
+        echo "a is smaller than b";
+    }
+
+## Ternary Operator
+
+    !php
+    // Example usage for: Ternary Operator
+    $action = (empty($_POST['action'])) ? 'default' : $_POST['action'];
+    
+    // The above is identical to this if/else statement
+    if (empty($_POST['action'])) {
+        $action = 'default';
+    } else {
+        $action = $_POST['action'];
+    }
+
+---
+
+# Control Structures
+
+## Switch
+
+    !php
+    if ($i == 0) {
+        echo "i equals 0";
+    } elseif ($i == 1) {
+        echo "i equals 1";
+    } elseif ($i == 2) {
+        echo "i equals 2";
+    } else {
+        echo "default";    
+    }
+
+This is equivalent to:
+    
+    !php
+    switch ($i) {
+        case 0:
+            echo "i equals 0";
+            break;
+        case 1:
+            echo "i equals 1";
+            break;
+        case 2:
+            echo "i equals 2";
+            break;
+        default:
+            echo "default";    
+    }
+
+---
+
+# Control Structures
+
+## while
+
+    !php
+    while ($i <= 10) {
+        echo $i++;  /* the printed value would be
+                       $i before the increment
+                       (post-increment) */
+    }
+    
+## do-while
+
+    !php
+    $i = 0;
+    do {
+        echo $i;
+    } while ($i > 0);
+
+Un passage de boucle au minimum
+
+---
+
+# Control Structures
+
+## for
+
+    !php
+    for ($i = 1; ; $i++) {
+        if ($i > 10) {
+            break;
+        }
+        echo $i;
+    }
+
+---
+
+# Control Structures
+
+## foreach
+
+    !php
+    $a = array(
+        "one" => 1,
+        "two" => 2,
+        "three" => 3,
+        "seventeen" => 17
+    );
+    
+    foreach ($a as $key => $value) {
+        echo "\$a[$key] => $value.\n";
+    }
+
+Displays:
+    
+    !bash
+    > $a[one] => 1.
+    > $a[two] => 2.
+    > $a[three] => 3.
+    > $a[seventeen] => 17.
+
+
+---
+
 # Classes (1/3)
 
 ### Simple class definition
@@ -276,10 +402,19 @@ Works with `int`, `float`, `string`, and `bool`:
 
 ### Return Type Declarations
 
+PHP > 7.0
+
     !php
     function sumOfInts(int ...$ints) : int {
         return array_sum($ints);
     }
+
+# Presenter Notes
+
+... infique que la fonction peut recevoir autant de parametres qu'on veut lui passer
+Toujours à placer en dernire
+Typage de retour seulement à partir de PHP > 7.0
+Fonctionne avec les options
 
 ---
 
@@ -473,15 +608,6 @@ Or:
     namespace MyNamespace {
         // ...
     }
-
-### PSR-0
-
-[PSR-0](http://php-fig.org/psr/psr-0/) describes a set of rules related to
-namespaces for autoloader interoperability:
-
-    !php
-    \ns\package\Class_Name      => vendor/ns/package/Class/Name.php
-    \ns\package_name\Class_Name => vendor/ns/package_name/Class/Name.php
 
 ---
 

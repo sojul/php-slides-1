@@ -11,13 +11,14 @@
 * 7th language in the world
 ([TIOBE](http://tiobe.com/index.php/content/paperinfo/tpci/index.html) January 2016)
 * 1st language for web development
-* Running on +75% of all web servers
 
 # Presenter Notes
 
 Souvent moqués par le reste de la communauté car "vieux" et "pas vraiment objet" et très permissif 
 
 ---
+
+# Popuarity
 
 # ![](../images/octoverse-popular-language.png)
 
@@ -78,13 +79,56 @@ The ten most popular languages on GitHub by opened pull request
 
 # Getting Started
 
-## Docker simple container
+## Docker
 
+Install Docker 17.12 from [official Website](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script)
+    
+    !bash
+    curl -fsSL get.docker.com -o get-docker.sh
+    sudo sh get-docker.sh
+    
+If you would like to use Docker as a non-root user, you should now consider adding your user to the "docker" group with something like:
+    
+    !shell
+    sudo usermod -aG docker <your-user>
+    
+> Remember to log out and back in for this to take effect!
+
+---
+
+# Getting Started
+
+## Docker
+
+### Test
+
+    !shell
+    sudo docker run hello-world
+
+### Install Env
+
+    !bash
     git clone https://github.com/acusset/php-env
     make install
 
-Uses Docker simple container with Apache & PHP 7.1.
-It's like a sandbox
+Uses Docker simple container with Apache 2 & PHP 7.1. It's like a sandbox
+
+---
+
+# Extensions
+
+PHP can be set up with extensions that brings new functions
+
+## mbstring
+Fonctions sur les chaines de caractères et l'encodage
+
+## mcrypt
+Fonctions de cryptage, décryptage, algorithmes
+
+## gd
+Fonctions sur les images et leur manipulation (dessins, copie etc.)
+
+[Liste des extensions PHP](http://php.net/manual/fr/extensions.alphabetical.php)
 
 ---
 
